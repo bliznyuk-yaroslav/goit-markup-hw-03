@@ -2,12 +2,32 @@ body{
 color:#434455;
 font-family: 'Roboto', sans-serif;
 background: #FFFFFF;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 ul,ol{
     list-style-type: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 0;
 }
 a{
     text-decoration: none;
+    margin-left:0;
+}
+.container{
+width: 1158px;
+}
+.main-page{
+    display: flex;
+}
+.page-nav{
+    display: flex;
 }
 .design-logo{
     color:  #2E2F42;
@@ -27,6 +47,7 @@ text-transform: uppercase;
 }
 .menu-list{
     color: #2E2F42;
+    display: flex;
 }
 .menu-item{
 font-size: 16px;
@@ -48,6 +69,10 @@ letter-spacing: 0.02em;
 .menu-address-list{
     font-style: normal;
 }
+.menu-address-list-item{
+    display: flex;
+}
+
 .menu-addres-list-link{
     font-size: 16px;
     line-height: 1.5;
@@ -68,7 +93,6 @@ background:#2e2f42;
     line-height: 1.07;
     letter-spacing: 0.02em;
     font-style: normal;
-    text-align: center;
 }
 .hero-button{
     cursor: pointer;
@@ -111,7 +135,6 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-text-align: center;
 }
 .sect-team-blocks{
     background-color: #FFFFFF;
@@ -140,7 +163,6 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-text-align: center;
 }
 .portfolio-link{
 color: #2E2F42;
