@@ -118,20 +118,25 @@ text-align: center;
   padding-top: 188px;
 }
 .hero-button{
-    display: block;
-    cursor: pointer;
-background:#4D5AE5;
-color: #FFF;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-font-weight: 500;
+    display: inline-block;
+	height: 56px;
+    width: 169px;
+    background-color: #4D5AE5;
+    line-height: 50px;
+    position: relative;
+  
+    border-radius: 4px;
+background: var(--IRIS, #4D5AE5);
 margin-top: 48px;
-height: 56px;
-width: 169px;
 }
 .hero-button-text{
-
+color: #F4F4FD;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.64px;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -182,10 +187,26 @@ text-align: center;
 .sect-team-blocks{
     background-color: #FFFFFF;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+
     row-gap: 32px;
     flex-basis: auto;
-    border: 1px solid #fd9222;
+    align-items: center;
+    width: 264px;
+    height: 380px ;
+}
+.sect-team-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.port-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+.sect-team-text{
+  align-content: center;
 }
 .team-name{
     color: #2E2F42;
@@ -193,13 +214,16 @@ text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     font-weight: 500;
-
+    text-align: center
+ 
 }
 .team-profess-description{
     color: #434455;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+text-align: center;
+
 }
 .porfolio-page{
     flex-shrink: 0;
@@ -222,7 +246,6 @@ text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     padding-bottom: 48px;
-    background-color: #434455;
    
   
 }
@@ -232,10 +255,7 @@ text-align: center;
     row-gap: 32px;
     flex-direction:column;
     height: 420px;
-    border: 1px solid #fd9222;
     margin-bottom: 48px;
-    background-color: #404BBF;
-    
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
@@ -261,7 +281,6 @@ flex-shrink: 1;
 background:#2e2f42;
 flex-shrink: 0;
 height: 312px;
-
 }
 
 .name-page{
@@ -277,7 +296,6 @@ height: 312px;
     display: flex;
     flex-wrap: wrap;
     width: 264px;
-    margin-left: 156px;
     padding-top: 100px;
     gap: 16px;
    
