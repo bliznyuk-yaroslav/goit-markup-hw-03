@@ -33,15 +33,15 @@ margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 72px;;
     border-bottom: 1px solid #e7e9fc;
 }
 .main-cont{
     display: flex;
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
     justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .page-nav{
     display: flex;
@@ -130,7 +130,6 @@ padding: 188px 0;
   overflow: hidden;
 }
 .hero-text{
-    display: flex;
     color: #FFF;
     font-size: 56px;
     line-height: 1.07;
@@ -143,7 +142,7 @@ padding: 188px 0;
 .hero-button{
     display:block;
 	height: 56px;
-    width: 169px;
+    min-width: 169px;
     background-color: #4D5AE5;
     line-height: 50px;
     position: relative;
@@ -154,15 +153,7 @@ margin-top: 48px;
 min-width: 169px;
 cursor: pointer;
 margin-inline: auto;
-}
-.hero-button-text{
 color: #F4F4FD;
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.64px;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -172,12 +163,8 @@ background: #404bbf;
     display: flex;
     gap: 24px;
 }
-.sect-advans{
-    padding: 120px 0;
-}
 .sect-advans-blocks{
 font-size: 40px;
-display: flex;
 flex-wrap: wrap;
 width: calc((100% - 72px) / 4);
 }
@@ -192,7 +179,6 @@ width: calc((100% - 72px) / 4);
 .sect-team-list{
     display: flex;
     margin-top: 72px;
-    gap: 24px;
     justify-content: center;
 }
 .advans-description{
@@ -205,7 +191,6 @@ letter-spacing: 0.02em;
 .sect-team{
 flex-shrink: 0;
 background-color: #F4F4FD;
-padding: 120px 0;
 }
 .sect-team-litle{
     color: #2E2F42;
@@ -231,8 +216,7 @@ margin-bottom: 72px;
 .sect-team-text{
     display: flex;
     flex-direction: column;
-    padding: 32px 0;
-    margin-bottom: 8px;
+
 }
 .port-text{
     display: flex;
@@ -263,8 +247,6 @@ text-align: center;
 .porfolio-page{
     flex-shrink: 0;
     background: #FFF;
-    padding-top: 120px; 
-    padding-bottom: 120px; 
 }
 
 .porfolio-title{
@@ -274,26 +256,23 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 text-align: center;
-margin-bottom: 72px;
 
 }
 .portfolio-list{
     display: flex;
-    margin-top: 72px;
+    padding-top:72px;
     column-gap: 24px;
     row-gap: 48px;
     justify-content: center;
     flex-wrap: wrap;
-    padding-bottom: 48px;
    
   
 }
 .porfolio-blocks{
-    display: flex;
+
     flex-wrap: wrap;
     height: 420px;
-    margin-bottom: 48px;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 72px) / 3);
 }
 .port-text{
     padding: 32px 16px;
@@ -325,7 +304,6 @@ flex-shrink: 1;
 background:#2e2f42;
 flex-shrink: 0;
 height: 312px;
-padding: 100px 0;
 }
 
 .name-page{
