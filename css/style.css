@@ -29,7 +29,7 @@ img{
 .container{
 width: 1158px;
 margin: 0 auto;
-padding: 0 10px 0 10px;
+padding: 0 15px;
 
 }
 .section{
@@ -254,23 +254,23 @@ text-align: center;
 
 }
 .portfolio-list{
-
     display: flex;
     padding-top:72px;
-    column-gap: 24px ;
-    row-gap: 48px;
+    gap: 24px; 
     justify-content: center;
     flex-wrap: wrap;
 }
 .porfolio-blocks{
-    width: calc((100% - 58px) / 3);
+    width: calc((100% - 72px) / 3);
 outline: 1px solid #e7e9fc;
+border-radius: 0px 0px 4px 4px;
     
 }
 .port-text{
-    padding: 32px 16px;
+    padding: 32px 0;
     border-top: none;
     width: 360px;
+  
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
