@@ -7,6 +7,7 @@ background: #FFFFFF;
 h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
     margin-bottom: 0;
+       padding-left: 0;
 }
 ul,ol{
     list-style-type: none;
@@ -20,6 +21,8 @@ a{
 }
 img{
     display: block;
+    padding-left: 0;
+    margin: 0;
 }
 .container{
 width: 1158px;
@@ -38,7 +41,6 @@ margin: 0 auto;
 .main-cont{
     display: flex;
     width: 1158px;
-    margin: 0 auto;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -164,9 +166,6 @@ background: #404bbf;
     gap: 24px;
 }
 .sect-advans-blocks{
-font-size: 40px;
-flex-wrap: wrap;
-width: calc((100% - 72px) / 4);
 }
 .advans-title{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -176,11 +175,7 @@ width: calc((100% - 72px) / 4);
     font-weight: 500;
     margin-bottom: 8px;
 }
-.sect-team-list{
-    display: flex;
-    margin-top: 72px;
-    justify-content: center;
-}
+
 .advans-description{
     color:#434455;
 font-size: 16px;
@@ -189,7 +184,6 @@ letter-spacing: 0.02em;
 
 }
 .sect-team{
-flex-shrink: 0;
 background-color: #F4F4FD;
 }
 .sect-team-litle{
@@ -201,27 +195,23 @@ text-transform: capitalize;
 text-align: center;
 margin-bottom: 72px;
 }
+.sect-team-list{
+    display: flex;
+    justify-content: center;
+   column-gap: 24px;
+   padding: 0;
+}
 .sect-team-blocks{
     background-color: #FFFFFF;
-    display: flex;
-    flex-direction: column;
-    border-radius: 0px 0px 4px 4px;
-    row-gap: 32px;
-    flex-basis: auto;
-    align-items: center;
-    width: 264px;
-    height: 380px ;
-    width: calc((100% - 72px) / 4);
 }
 .sect-team-text{
-    display: flex;
-    flex-direction: column;
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    max-width: 264px;
+    border-top: none;
 
 }
 .port-text{
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
 }
 .sect-team-text{
   align-content: center;
@@ -261,22 +251,20 @@ text-align: center;
 .portfolio-list{
     display: flex;
     padding-top:72px;
-    column-gap: 24px;
+column-gap: 24px ;
     row-gap: 48px;
     justify-content: center;
     flex-wrap: wrap;
-   
-  
+}
+.portfolio-list .porfolio-blocks{
+    width: calc((100% - 78px) / 3);
 }
 .porfolio-blocks{
-
-    flex-wrap: wrap;
-    height: 420px;
-    width: calc((100% - 72px) / 3);
 }
 .port-text{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    max-width: 360px;
     border-top: none;
 }
 .portfolio-link:hover,
