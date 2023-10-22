@@ -29,6 +29,7 @@ img{
 .container{
 width: 1158px;
 margin: 0 auto;
+padding: 0 10px 0 10px;
 
 }
 .section{
@@ -262,8 +263,8 @@ text-align: center;
     flex-wrap: wrap;
 }
 .porfolio-blocks{
-    width: calc((100% - 78px) / 3);
-    outline: 1px solid #e7e9fc;
+    width: calc((100% - 58px) / 3);
+outline: 1px solid #e7e9fc;
     
 }
 .port-text{
