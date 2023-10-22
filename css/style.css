@@ -7,26 +7,29 @@ background: #FFFFFF;
 h1,h2,h3,h4,h5,h6,p{
     margin-top: 0;
     margin-bottom: 0;
-       padding-left: 0;
+       padding:0;
+
 }
 ul,ol{
     list-style-type: none;
     margin-bottom: 0;
     margin-top: 0;
-    padding-left: 0;
+    padding:0;
 }
 a{
     text-decoration: none;
-    margin-left:0;
+   margin: 0;
+    padding: 0;
 }
 img{
     display: block;
-    padding-left: 0;
     margin: 0;
+    padding: 0;
 }
 .container{
 width: 1158px;
 margin: 0 auto;
+
 }
 .section{
     padding-top: 120px;
@@ -40,7 +43,6 @@ margin: 0 auto;
 }
 .main-cont{
     display: flex;
-    width: 1158px;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -128,7 +130,6 @@ padding: 188px 0;
 
   white-space: nowrap;
   clip-path: inset(100%);
-  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 .hero-text{
@@ -203,11 +204,10 @@ margin-bottom: 72px;
 }
 .sect-team-blocks{
     background-color: #FFFFFF;
+    outline: 1px solid #e7e9fc;  
 }
 .sect-team-text{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    max-width: 264px;
     border-top: none;
 
 }
@@ -235,7 +235,6 @@ text-align: center;
 
 }
 .porfolio-page{
-    flex-shrink: 0;
     background: #FFF;
 }
 
@@ -257,15 +256,15 @@ column-gap: 24px ;
     flex-wrap: wrap;
 }
 .portfolio-list .porfolio-blocks{
-    width: calc((100% - 78px) / 3);
+    width: calc((100% - 72px) / 3);
 }
 .porfolio-blocks{
+    border: 1px solid #e7e9fc;
 }
 .port-text{
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    max-width: 360px;
     border-top: none;
+    width: 360px;
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
@@ -288,11 +287,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer-list{
-flex-shrink: 1;
 background:#2e2f42;
-flex-shrink: 0;
-height: 312px;
-}
+flex-shrink: 0;}
 
 .name-page{
     color:  #4d5ae5;
@@ -309,7 +305,6 @@ height: 312px;
     display: flex;
     flex-wrap: wrap;
     width: 264px;
-    padding-top: 100px;
     gap: 16px;
    
   
