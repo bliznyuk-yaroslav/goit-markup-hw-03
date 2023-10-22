@@ -44,6 +44,8 @@ padding: 0 15px;
     justify-content: space-between;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding: 0 15px;
+
 }
 .page-nav{
     display: flex;
