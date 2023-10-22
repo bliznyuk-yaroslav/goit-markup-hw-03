@@ -274,8 +274,8 @@ margin-bottom: 72px;
 }
 .port-text{
     padding:32px 16px;
-    border-top: none; 
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 .portfolio-link:hover,
 .portfolio-link:focus{
